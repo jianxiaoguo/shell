@@ -1,7 +1,6 @@
 #!/usr/bin/expect
 #trap sigwinch spawned
 trap {
-
  set rows [stty rows]
  set cols [stty columns]
  stty rows $rows columns $cols < $spawn_out(slave,name)
