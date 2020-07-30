@@ -17,3 +17,4 @@ def hex3b64(server_pubk):
 def str2hex(b64_data):
     import binascii
     return binascii.b2a_hex(b64_data).decode()
+
